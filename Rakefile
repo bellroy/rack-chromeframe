@@ -5,12 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-chromeframe"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Rack middleware to insert the Google Chrome Frame header}
+    gem.description = %Q{Sets the X-UA-Compatible header in all responses to enable Google Chrome Frame}
     gem.email = "info@tricycledevelopments.com"
     gem.homepage = "http://github.com/tricycle/rack-chromeframe"
     gem.authors = ["Tricycle I.T. Pty Ltd"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_development_dependency "rack-test", ">= 0.5.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
